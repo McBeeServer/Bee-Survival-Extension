@@ -1,0 +1,6 @@
+name: BeeSurvivalExtension
+version: '${project.version}'
+main: net.acticraft.plugin.beesurvivalextension.BeeSurvivalExtension
+api-version: 1.18
+authors: [ PxLib ]
+depend: [PlaceholderAPI]
