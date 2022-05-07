@@ -24,7 +24,7 @@ public class SpawnRegion implements Listener {
         List<Region> RegionList =  Regions.getRegionsInLocation(event.getPlayer().getLocation());
         if(RegionList.contains("region")) {
             event.getPlayer().sendTitle(ChatColor.of("#FFBF00")+"Welcome", ChatColor.of("#FAD5A5")+"You entered spawn region",0, 0, 40);
-
+                System.out.println("You entered spawn region");
         }
     }
 
